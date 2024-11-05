@@ -46,7 +46,7 @@ Make sure you have a font file named `your-font-name.ttf` in the same directory 
 3. Run the script:
 
     ```bash
-    python your_script.py
+    python mainpfp.py
     ```
 
 The bot will now update your profile picture every minute with the current time in the `Asia/Kolkata` timezone.
