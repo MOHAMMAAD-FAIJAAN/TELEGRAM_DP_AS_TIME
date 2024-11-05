@@ -8,7 +8,7 @@ api_id = 'your api id'
 api_hash = 'your hash id'
 session_string = 'your session id'
 
-piro = Client("PiroModz", api_id=api_id, api_hash=api_hash, session_string=session_string)
+piro = Client("FAIZU", api_id=api_id, api_hash=api_hash, session_string=session_string)
 
 def create_black_image_with_time():
     img = Image.new('RGB', (512, 512), color=(0, 0, 0))
@@ -42,5 +42,5 @@ async def update_profile_picture():
                     await piro.delete_profile_photos([p.file_id for p in photos[1:]])
             await piro.set_profile_photo(photo=image_path)
 
-print("Starting...Created By PiroHackz")
+print("Starting...Created By MOHAMMAD-FAIJAAN")
 piro.run(update_profile_picture())
