@@ -4,9 +4,9 @@ from PIL import Image, ImageDraw, ImageFont
 from pyrogram import Client
 import asyncio
 
-api_id = '7982046'
-api_hash = '665da0bb262780d43f19791e954a680d'
-session_string = 'BQAf70YAYd8m5X_2iA08dyZ4Om82Mw5ww14_JcJUJqtKBQEWwNGQlc_rYN2co_PR6_y9JLenaSaOwRA4EegP1sHGbSsHLST2Lnup5ScMJ901xnEWcWs0aOs8M9-pXxTIhTLubdoCFEUxbiX7Jl2_TRhiovnluZdspG-nC9sFGxESbe0YpavxNkdw7kPZjzSV5jzLHrj0WCfXKt1s26e8DczYAdcWA30AULDY_8CMDjExPXGpVBdwrvSn_gQ0_SH4Kc1F_5UGG6zEBABtG1i5SZ3PrpZZNIhnDb7IVULn9car0HHRM8gNFmdBmfs7R_zNEmT981zHadM4stqLBGCrU4i_ijVy3gAAAAFKLXutAA'
+api_id = 'your api id'
+api_hash = 'your hash id'
+session_string = 'your session id'
 
 piro = Client("PiroModz", api_id=api_id, api_hash=api_hash, session_string=session_string)
 
